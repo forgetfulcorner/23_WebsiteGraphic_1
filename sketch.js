@@ -24,10 +24,12 @@ function setup() {
   rectMode(CENTER);
   colorMode(HSB, 255)
   
-  background(randH * 0.4, 150, 220, 40);
+  
   
   randH = random(0, 255)
   randRot = random(-1, 1)
+  
+  background(randH * 0.4, 150, 220, 40);
 }
 
 function draw() {
