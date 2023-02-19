@@ -8,7 +8,7 @@ let count = 0;
 
 let randRot;
 
-let speed = 10;
+let speed = 5;
 
 // DEFINED FROM 0 to 1. 0 BEING TOP OF THE CANVAS, 1 BEING BOTTOM OF CANVAS.
 let runHeight = 0.5;
